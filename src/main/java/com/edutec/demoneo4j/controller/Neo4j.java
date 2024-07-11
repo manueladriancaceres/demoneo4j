@@ -1,5 +1,7 @@
 package com.edutec.demoneo4j.controller;
 
+import com.edutec.demoneo4j.service.Neo4jService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
