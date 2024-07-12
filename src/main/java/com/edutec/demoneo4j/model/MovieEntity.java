@@ -12,14 +12,15 @@ import static org.springframework.data.neo4j.core.schema.Relationship.Direction.
 
 @Node("Movie")
 public class MovieEntity {
+
     @Id
     private final String title;
     @Property("tagline")
     private final String description;
-    @Relationship(type = "ACTED_IN", direction = INCOMING)
-    private Set<PersonEntity> actors = new HashSet<>();
-    @Relationship(type = "DIRECTED", direction = INCOMING)
-    private Set<PersonEntity> directors = new HashSet<>();
+    //@Relationship(type = "ACTED_IN", direction = INCOMING)
+    //private Set<PersonEntity> actors = new HashSet<>();
+    //@Relationship(type = "DIRECTED", direction = INCOMING)
+    //private Set<PersonEntity> directors = new HashSet<>();
     public MovieEntity(String title, String description) {
         this.title = title;
         this.description = description;
@@ -33,6 +34,7 @@ public class MovieEntity {
         return description;
     }
 
+    /*
     public Set<PersonEntity> getActors() {
         return actors;
     }
@@ -40,4 +42,6 @@ public class MovieEntity {
     public Set<PersonEntity> getDirectors() {
         return directors;
     }
+
+     */
 }
