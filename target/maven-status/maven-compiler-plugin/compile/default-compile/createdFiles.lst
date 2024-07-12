@@ -1,4 +1,9 @@
 com/edutec/demoneo4j/Demoneo4jApplication.class
+com/edutec/demoneo4j/repository/MovieRepository.class
+com/edutec/demoneo4j/config/Neo4jConfig.class
+com/edutec/demoneo4j/model/PersonEntity.class
 com/edutec/demoneo4j/service/Neo4jService.class
 com/edutec/demoneo4j/Ping.class
 com/edutec/demoneo4j/controller/Neo4j.class
+com/edutec/demoneo4j/model/MovieEntity.class
+com/edutec/demoneo4j/controller/MovieController.class
