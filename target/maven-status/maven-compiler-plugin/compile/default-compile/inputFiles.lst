@@ -1,4 +1,9 @@
 /workspaces/demoneo4j/src/main/java/com/edutec/demoneo4j/Demoneo4jApplication.java
+/workspaces/demoneo4j/src/main/java/com/edutec/demoneo4j/config/Neo4jConfig.java
+/workspaces/demoneo4j/src/main/java/com/edutec/demoneo4j/controller/MovieController.java
 /workspaces/demoneo4j/src/main/java/com/edutec/demoneo4j/controller/Neo4j.java
 /workspaces/demoneo4j/src/main/java/com/edutec/demoneo4j/controller/Ping.java
+/workspaces/demoneo4j/src/main/java/com/edutec/demoneo4j/model/MovieEntity.java
+/workspaces/demoneo4j/src/main/java/com/edutec/demoneo4j/model/PersonEntity.java
+/workspaces/demoneo4j/src/main/java/com/edutec/demoneo4j/repository/MovieRepository.java
 /workspaces/demoneo4j/src/main/java/com/edutec/demoneo4j/service/Neo4jService.java
